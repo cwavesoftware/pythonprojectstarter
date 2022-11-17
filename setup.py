@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 setup(
-    name='scriptstarter',
+    name='pythonprojectstarter',
     packages=find_packages(),
     version='0.1.0',
     description='Creates a script with logging, argparse and other utilities ready',
