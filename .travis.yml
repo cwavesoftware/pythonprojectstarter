@@ -5,9 +5,10 @@ env:
 - TOXENV=docs
 - TOXENV=py36
 install:
-
+ echo "install ..." 
 script:
-
+- >
+ echo "script ..." 
 jobs:
   include:
     - stage: 'Elasticsearch test'
